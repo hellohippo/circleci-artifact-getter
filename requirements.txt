@@ -1,0 +1,2 @@
+requests==v2.18.4
+docopt==0.6.2
