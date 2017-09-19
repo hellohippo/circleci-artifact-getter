@@ -1,4 +1,6 @@
 *.pyc
 *.swp
+*.tar.gz
+virtualenv*
 env
 out

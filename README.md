@@ -25,6 +25,7 @@ Note! Script at this moment script only works with text files as artifacts
 Examples
 
 ```
+source setup.sh
 export TOKEN=circleciapitoken
 python circleci-getter.py --debug --user transisland --project platform --branch develop --filter '.*/deployments/.*'
 ```
