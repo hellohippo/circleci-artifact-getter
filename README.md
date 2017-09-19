@@ -1,5 +1,7 @@
 # circleci-artifact-getter
 
+# Intro
+
 Utility to download artifacts from CircleCI builds
 
 ```
@@ -22,7 +24,7 @@ Options:
 
 Note! Script at this moment script only works with text files as artifacts
 
-Examples
+# Examples
 
 ```
 source setup.sh
@@ -39,4 +41,12 @@ Got the following URLs: [u'https://2411-76292669-gh.circle-artifacts.com/0/home/
 Downloading files to out ...
 Wrote out/deployment.yml
 Wrote out/deployment.yml%253D
+```
+
+# Build executable
+
+```
+source setup.sh
+pyinstaller --onefile circleci-getter.py
+dist/circleci-getter -h
 ```
