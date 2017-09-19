@@ -50,3 +50,10 @@ source setup.sh
 pyinstaller --onefile circleci-getter.py
 dist/circleci-getter -h
 ```
+
+# Get executable
+
+```
+curl -L -O https://github.com/transisland/circleci-artifact-getter/releases/download/0.0.1/circleci-getter-linux
+chmod u+x circleci-getter-linux
+```
